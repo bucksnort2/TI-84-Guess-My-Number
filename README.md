@@ -16,8 +16,8 @@ Goto: Press PRGM, select 0.
 While: Press PRGM, select 5.
 Prompt: press PRGM, navigate to I/O, select 2.
 If: Press PRGM, select 1.
->: Press 2nd, press TEST (the MATH key), select 3
-<: Press 2nd, press TEST, select 5.
+\>: Press 2nd, press TEST (the MATH key), select 3
+\<: Press 2nd, press TEST, select 5.
 =: Press 2nd, press TEST, select 1.
 End: Press PRGM, select 7
 Disp: Press PRGM, navigate to I/O, select 3.
