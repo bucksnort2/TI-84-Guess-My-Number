@@ -4,6 +4,7 @@ A "Guess my number" game for the TI 83/84 calculators.
 Anyone may use this code and edit it to what they would like to do with it. I created it on September 15, 2017 in about 20 minutes.
 
 **HOW TO GET TO ALL THE COMMANDS NEEDED IN THIS PROGRAM:**
+
 To edit, go to the PRGM button, navigate over to NEW, and select 1:CREATE NEW. Name it whatever you want, I called it Guess to make it easier to find.
 
 ClrHome: Press PRGM, navigate to I/O, select 8.
