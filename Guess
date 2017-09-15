@@ -1,0 +1,42 @@
+//STO> means the STO button above the on/off button
+//And ignore these comments when typing them into the Calculator.
+//How to get to all the special commands are in the README.
+ClrHome
+-1 STO> A
+-1 STO> X
+0 STO> C
+
+//Menu for player to select what difficulty they want
+Menu("GUESS MY NUMBER!","0-10",1,"0-100",2,"0-1000",3,"0-1000000",4)
+//the next few lines assign a random number between 0 and 10/100/1000/1000000 to X based on what difficulty you chose
+Lbl 1
+randInt(0,10) STO> X
+Goto S
+Lbl 2
+randInt(0,100) STO> X
+Goto S
+Lbl 3
+randInt(0,1000) STO> X
+Goto S
+Lbl 4
+randInt(0,1000000) STO> X
+
+//plays the game, the counter going up each time you make a guess, until you guess the right number
+Lbl S
+While 1
+Prompt A
+C+1 STO> C
+If X>A
+Disp "Higher"
+If X<A
+Disp "Lower"
+If X=A
+Goto Z
+End
+
+//Winning Screen
+Lbl Z
+Disp "YOU WIN!"
+Disp "IT TOOK YOU"
+Disp C
+Disp "GUESSES!"
