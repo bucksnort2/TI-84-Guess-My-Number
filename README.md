@@ -9,7 +9,7 @@ To edit, go to the PRGM button, navigate over to NEW, and select 1:CREATE NEW. N
 ClrHome: Press PRGM, navigate to I/O, select 8.
 STO>: Press the button directly above the ON/OFF button.
 Menu(: Press PRGM, Select C.
-!: Press MATH, navigate to PRB, select 4.
+\!: Press MATH, navigate to PRB, select 4.
 Lbl: Press PRGM, select 9.
 randInt(: Press MATH, navigate to PRB, select 5.
 Goto: Press PRGM, select 0.
